@@ -44,7 +44,7 @@ var data = [
         name: 'Hotels with large living room',
         itemId: [
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902226') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902227') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902229') },
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902228') },
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902229') },
         ],
