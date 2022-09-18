@@ -10,7 +10,7 @@ const { json } = require('express');
 module.exports = {
   landingPage: async (req, res) => {
     try {
-      const mostPicked = await Item.find().select('_id tittle country city price unit imageId').limit(5).populate({ path: 'imageId', select: '_id imageUrl' });
+      const mostPicked = await Item.find().select('_id title country city price unit imageId').limit(5).populate({ path: 'imageId', select: '_id imageUrl' });
 
       const category = await Category.find()
         .select('_id name')
