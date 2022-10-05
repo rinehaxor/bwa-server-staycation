@@ -74,7 +74,7 @@ module.exports = {
         item,
       });
     } catch (error) {
-      res.redirect('/admin/dashboard');
+      res.redirect('/admin/dashboard/1');
     }
   },
   viewCategory: async (req, res) => {
